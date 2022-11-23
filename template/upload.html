@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>upload</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/ionicons.min.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
+    <!--favicon-->
+	<link rel="icon" href="{{ url_for('static', filename='images/process.png')}}" type="image/png" />
+    <link href="{{url_for('static', filename='bootstrap/js/bootstrap.min.js')}}"></link>
+    <link href="{{url_for('static', filename='js/SmartNavClean-1.js')}}"></link>
+    <link href="{{url_for('static', filename='js/SmartNavClean.js')}}"></link>
+</head>
+<body style="background: #f7ffff;">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean smart-scroll">
+        <div class="container-fluid">
+            <div class="col-m align-items-center"><a class="navbar-brand" href="index.html"> FORM SCRUTINIZER</a></div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link " href="authentication-forgot-password.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="Push-20" style="height: 176px;font-size: 29px;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="Push-20" style="height: 100px;"></div>
+                <h1 style="font-size: 50px;width: 632.6px;height: 160px;"><br>Your Form has been successfully uploaded!!!<br><br></h1>
+                <p style="width: 536px;height: 83px;"><br>To view the status of your form click the below button to proceed further<br><br><br></p><a href="/dashboard"><button class="btn btn-primary" type="button" style="transform: translate(194px);width: 150px;height: 70px;"> Go Back To Dashboard</button></a> 
+            </div>
+            <div class="col-md-6"><img src="{{ url_for('static', filename='images/success.gif')}}" style="width: 581px;"></div>
+        </div>
+    </div>
+    <div class="Push-20" style="height: 44px;"></div>
+    <div class="footer-dark">
+        <div style="text-align:center;">
+            <h2 class="divider-style" style="margin-top:0px;"><span style="background-color:rgb(255, 255, 255);color: #8788ED;"><a href="#"></a>&nbsp;FORM SCRUTINIZER</span></h2>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row" style="margin-top:20px;">
+                    <div class="col-md-6 item text" style="margin-bottom:0px;">
+                        <h3>FORM SCRUTINIZER</h3>
+                        <p style="color:white; width: 500px;">We automate the process of manual form checking by implementing a web application incorporated with Artificial Intelligence.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col item social" style="margin-top:10px;"><input class="form-control-lg" type="email" style="width:200px;height:40px;margin-left:-3px;margin-bottom:11px;margin-top:30px;"><button class="btn btn-primary" style="width:111px;margin-top:-8px;" type="button">SUBSCRIBE</button>
+                    <h1 style="font-size:1rem;">Weekly Newsletter</h1>
+                </div>
+                <div class="col item social" style="margin-top:15px;"><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-github"></i></a><a href="#"><i class="icon ion-social-linkedin"></i></a></div>
+                <div style="text-align:center;margin-top:-40px;">
+                    <h2 class="divider-style"></h2>
+                </div>
+                <p class="copyright">@ALL RIGHTS ARE RESERVED BY TITANS</p>
+            </div>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='js/SmartNavClean.js')}}"></script>
+</body>
+
+
+
+<style>
+    a{
+        color:white !important;
+    }
+    p{
+        color:#4F5B72;
+    }
+    h1{
+        color:#8788ED !important;
+    }
+    .btn{
+        background-color:#8788ED !important;
+    }
+</style>
+
+
+
+</html>
